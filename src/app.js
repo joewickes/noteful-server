@@ -22,7 +22,7 @@ app.use('/', foldersRouter);
 app.use('/', notesRouter);
 
 app.get('/', (req, res) => {
-  res.send('Hello, boilerplate!');
+  res.send('Noteful server');
 });
 
 app.use(function errorHandler(error, req, res, next) {
